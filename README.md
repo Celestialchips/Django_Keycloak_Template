@@ -42,6 +42,16 @@ python3 manage.py migrate
 # runserver
 python3 manage.py runserver
 ```
+If you don't know how and need help generating a JWT token. Here's how to do it. 
+Remember the private keys should always be kept safe. Public keys can be revealed to the server. 
+
+```bash
+ssh-keygen -t rsa -b 4096 -m PEM -f jwtRS256.key
+# Don't add passphrase
+openssl rsa -in jwtRS256.key -pubout -outform PEM -out jwtRS256.key.pub
+cat jwtRS256.key
+cat jwtRS256.key.pub
+```
 
 **Usage**
 
