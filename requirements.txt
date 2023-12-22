@@ -1,0 +1,5 @@
+python-dotenv
+django
+djangorestframework
+pyjwt==1.7.1
+python-keycloak
