@@ -67,4 +67,4 @@ MIT License
 
 **Contact**
 
-Contact me [here](ryan.glass.dev@gmail.com) if you have any questions about this repository.
+Contact me [here](mailto:ryan.glass.dev@gmail.com) if you have any questions about this repository.
